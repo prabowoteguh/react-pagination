@@ -65,7 +65,7 @@ class Turnkey extends Component {
                         'Picture':
                           (item)=>(
                             <td>
-                              {item.picture.medium}
+                              <img src={item.picture.medium} />
                             </td>
                           ),
                         'Full Name':
