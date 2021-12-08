@@ -1,25 +1,25 @@
-import React from 'react'
+import React from "react";
 import {
   TheContent,
   TheSidebar,
+  MySidebar,
   TheFooter,
-  TheHeader
-} from './index'
+  TheHeader,
+} from "./index";
 
 const TheLayout = () => {
-
   return (
     <div className="c-app c-default-layout">
-      <TheSidebar/>
+      <MySidebar />
       <div className="c-wrapper">
-        <TheHeader/>
+        <TheHeader />
         <div className="c-body">
-          <TheContent/>
+          <TheContent />
         </div>
-        <TheFooter/>
+        {/* <TheFooter /> */}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default TheLayout
+export default TheLayout;
